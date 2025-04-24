@@ -1,0 +1,9 @@
+{
+  "url": "https://www.theguardian.com/international",
+  "item_selector": ".fc-item__container",
+  "fields": {
+    "headline": "a.fc-item__link span.js-headline-text",
+    "link": "a.fc-item__link@href"
+  },
+  "output": "output/news_data.csv"
+}

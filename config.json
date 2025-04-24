@@ -1,0 +1,10 @@
+{
+  "url": "https://books.toscrape.com/",
+  "item_selector": ".product_pod",
+  "fields": {
+    "title": "h3 a@title",
+    "price": ".price_color",
+    "availability": ".availability"
+  },
+  "output": "output/books_data.csv"
+}

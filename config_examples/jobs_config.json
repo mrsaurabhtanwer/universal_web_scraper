@@ -1,0 +1,12 @@
+{
+  "url": "https://remoteok.com/",
+  "item_selector": ".job",
+  "fields": {
+    "title": "h2",
+    "company": ".companyLink h3",
+    "location": ".location",
+    "tags": ".tags",
+    "link": "a@href"
+  },
+  "output": "output/remote_jobs.csv"
+}
